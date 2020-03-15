@@ -1,0 +1,65 @@
+<nav class="navbar navbar-expand-lg navbar-light shadow-sm">
+  <div class="container d-flex justify-content-between">
+      <a href="/" class="navbar-brand d-flex align-items-center">
+          <img id="app-logo" src="img/applogo.png">
+          <strong id="app-name">&nbspMySmartRecipe</strong>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" 
+              data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" 
+              aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="navbar-collapse collapse order-3 dual-collapse2">
+          <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                  <a class="nav-link" id="log-in" href="/signin">LOG IN</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" id="sign-up" href="/createprofile">SIGN UP</a>
+              </li>
+          </ul>
+      </div>
+  </div>
+</nav>
+
+<div class="container main">
+        <div class="row big-row">
+            <div class="col-sm-12 col-md-8 text-center photo-col ">
+
+              <div class="row photo-row">
+                <!-- placeholder photo -->
+                <img id="photo-captured" src="img/foodplaceholder.jpeg">
+              </div>
+              <div class="row">
+                <a href="/camera" id="retake-button" role="button">Retake photo</a>
+              </div>
+            </div>
+
+            <div class="col-sm-12 col-md-4 table-col">
+              <div class="row">
+                <table class="table table-hover">
+                  <thead>
+                    <tr>
+                      <th scope="col">PREDICTED INGREDIENT</th>
+                      <th scope="col">PROBABILITY</th>
+                      <th scope="col">SELECTION</th>
+                    </tr>
+                  </thead>
+                  <tbody id="predicted-ingredients">
+                  </tbody>
+                </table>
+              </div>
+
+              <div class="row">
+                <a href="/recipe" class="button" id="recipe-button" role="button">Find Recipes!</a> 
+              </div>    
+            </div>
+        </div>
+    </div>
+    
+   
+    <script src="/js/ingredient.js"></script>
+
+    <footer class="text-center text-light">
+        <p id="copyright">© 2019 Copyright Harry Jasmine Nicole Scott O.</p>
+    </footer>

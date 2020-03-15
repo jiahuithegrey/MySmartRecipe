@@ -1,0 +1,55 @@
+<nav class="navbar navbar-expand-lg navbar-light shadow-sm">
+  <div class="container d-flex justify-content-between">
+      <a href="/" class="navbar-brand d-flex align-items-center">
+          <img id="app-logo" src="img/applogo.png">
+          <strong id="app-name">&nbspMySmartRecipe</strong>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" 
+              data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" 
+              aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+      </button>
+      {{!-- <div class="navbar-collapse collapse order-3 dual-collapse2">
+          <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                  <a class="nav-link" id="log-in" href="/signin">LOG IN</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" id="sign-up" href="/createprofile">SIGN UP</a>
+              </li>
+          </ul>
+      </div> --}}
+  </div>
+</nav>
+
+<div class="container main">
+    <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+            <h2>Login Form</h2>
+            
+            <form class="login">
+                <div class="form-group">
+                    <label for="exampleInputName1">Username</label>
+                    <input type="username" class="form-control" id="name-input" placeholder="Harry Potter">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="email-input" placeholder="hpotter.gryffindor@hogwarts.edu">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Password</label>
+                    <input type="password" class="form-control" id="password-input" placeholder="Password">
+                </div>
+                <a type="submit" id="login-btn" class="button text-center">Login</a>
+            </form>
+            <br />
+            <p>Or create profile <a id="here" href="/createprofile">here</a></p>
+        </div>
+    </div>
+</div>
+
+ <script src="/js/frontend.js"></script>
+
+    <footer class="text-center text-light">
+        <p id="copyright">© 2019 Copyright Harry Jasmine Nicole Scott O.</p>
+    </footer>
