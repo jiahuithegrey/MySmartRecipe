@@ -1,7 +1,7 @@
 # MySmartRecipe
 * This application suggests recipes by user taking a picture of available on-hand ingredients. Aftering taking a picture of the ingredients, the application will use image recognition to list probable ingredients. The users can select which ingredients they want to cook. Then the application will suggest recipes that include those ingredients.
 
-* Heroku Deployment: [MySmartRecipe](https://mysmartrecipe.herokuapp.com//)
+* Heroku Deployment: [MySmartRecipe](https://mysmartrecipe.herokuapp.com/)
 
 ## Built With
 * Frontend: 
