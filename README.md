@@ -21,10 +21,14 @@
 * Utilize Spoonacular API to recommend recipe based on the ingredients the user selects
 
 ## Teamwork
-* Jiahui Wang: Front-end, UX/UI design (https://github.com/jiahuithegrey)
-* Harry Furusho: Back-end, MySQL, Image storage (https://github.com/hfurusho)
-* Scott Ogata: Clarifai API (https://github.com/amidstasinglebreath)
-* Nicole Steig: Sign up and sign in functions (https://github.com/NicholeSteig)
+* Jiahui Wang: https://github.com/jiahuithegrey
+    * Front-end, UX/UI design
+* Harry Furusho: https://github.com/hfurusho
+    * Back-end, MySQL, Image storage
+* Scott Ogata: https://github.com/amidstasinglebreath
+    * Clarifai API
+* Nicole Steig: https://github.com/NicholeSteig
+    * Sign up and sign in functions
 
 ## Credits
 University of Washington Coding Bootcamp faculty
